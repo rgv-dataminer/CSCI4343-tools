@@ -41,7 +41,7 @@ def plot_decision_boundary(model, X, y):
     plt.grid(True, linestyle='--', alpha=0.7)
     plt.show()
 
-def accuracy(y_true, y_pred):
+def compute_accuracy(y_true, y_pred):
     return (y_true == y_pred).float().mean().item()
 
 # Call the plotting function with the trained model and data
