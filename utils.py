@@ -44,4 +44,4 @@ def plot_decision_boundary(model, X, y):
     plt.show()
 
 # Call the plotting function with the trained model and data
-plot_decision_boundary(model, X, y)
+#plot_decision_boundary(model, X, y)
