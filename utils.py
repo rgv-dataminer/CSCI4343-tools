@@ -18,9 +18,7 @@ def plot_decision_boundary(model, X, y):
     # Plot the data points
     fig = plt.figure(figsize=(10, 6))
     plt.scatter(X_np[:, 0], X_np[:, 1], c=y_np, cmap='coolwarm', edgecolor='k')
-    plt.xlabel('Petal Length (cm)')
-    plt.ylabel('Petal Width (cm)')
-    plt.title('Iris Data with Linear Classification Boundary')
+    plt.title('Classification Data with Linear Classification Boundary')
 
     # Define the x-range for plotting the decision boundary
     x_min, x_max = X_np[:, 0].min() - 0.1, X_np[:, 0].max() + 0.1
